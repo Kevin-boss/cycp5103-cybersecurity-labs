@@ -1,0 +1,17 @@
+# Raw / unredacted material - never commit
+raw-screenshots/
+**/raw/
+*.pcap
+*.pcapng
+*.key
+*.pem
+*.env
+*.log
+*.gnmap.bak
+# Original course PDFs (lecturer's material)
+*.pdf
+!reports/*.pdf
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
